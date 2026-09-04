@@ -41,7 +41,23 @@ body{margin:0;background:#e9dfd0;color:#3d2b1e;font-family:Georgia,"Noto Serif G
 .card{background:#fff;border:1px solid #ead9bd;border-radius:20px;padding:20px;box-shadow:0 12px 28px #5c3c1710}
 .timing{display:flex;justify-content:space-between;padding:16px 0;border-bottom:1px dashed #ddc9aa}
 .timing:last-child{border:0}.lbl{color:#80684e}.val{font:bold 18px Arial;color:#c96d20}
-.event{display:flex;gap:15px;margin:15px 0}.eventdate{min-width:62px;border:1px solid #d9bd8d;border-radius:14px;text-align:center;padding:9px;color:#c96d20;font:bold 13px Arial}
+.event{display:flex;gap:15px;margin:15px 0}.eventdate{
+    min-width:78px;
+    border:1px solid #d9bd8d;
+    border-radius:14px;
+    text-align:center;
+    padding:8px 5px;
+    color:#c96d20;
+    font:bold 16px Arial;
+    line-height:1.15;
+}
+
+.eventdate small{
+    display:inline-block;
+    font-size:9px;
+    margin:3px 0;
+    letter-spacing:.5px;
+}
 .eventtext{line-height:1.5}.muted{color:#8a7359;font-size:14px}
 .photo-strip{display:flex;gap:10px;overflow:hidden;margin-top:18px}.photo-strip img{width:calc(50% - 5px);height:210px;object-fit:cover;border-radius:16px;border:1px solid #dfc89f}
 .contact{display:block;text-decoration:none;text-align:center;background:#c96d20;color:#fff;padding:14px;border-radius:30px;font:bold 14px Arial;margin-top:16px}
@@ -97,58 +113,45 @@ body{margin:0;background:#e9dfd0;color:#3d2b1e;font-family:Georgia,"Noto Serif G
 
 <section class="section" id="events">
   <h2>📿 વિશેષ કાર્યક્રમો</h2>
- <div class="card">
+<div class="card">
 
     <div class="event">
-        <div class="eventdate">14<br>SEP</div>
-        <div class="eventtext">
-            <b>સોમવાર • આગમન</b>
-        </div>
+        <div class="eventdate">14<br><small>MON</small><br>SEP</div>
+        <div class="eventtext"><b>આગમન</b></div>
     </div>
 
     <div class="event">
-        <div class="eventdate">15<br>SEP</div>
-        <div class="eventtext">
-            <b>મંગળવાર • સુંદરકાંડ</b>
-        </div>
+        <div class="eventdate">15<br><small>TUE</small><br>SEP</div>
+        <div class="eventtext"><b>સુંદરકાંડ</b></div>
     </div>
 
     <div class="event">
-        <div class="eventdate">16<br>SEP</div>
-        <div class="eventtext">
-            <b>બુધવાર • બાળકો માટે રમતોત્સવ</b>
-        </div>
+        <div class="eventdate">16<br><small>WED</small><br>SEP</div>
+        <div class="eventtext"><b>બાળકો માટે રમતોત્સવ</b></div>
     </div>
 
     <div class="event">
-        <div class="eventdate">17<br>SEP</div>
-        <div class="eventtext">
-            <b>ગુરુવાર • હાઉસી</b>
-        </div>
+        <div class="eventdate">17<br><small>THU</small><br>SEP</div>
+        <div class="eventtext"><b>હાઉસી</b></div>
     </div>
 
     <div class="event">
-        <div class="eventdate">18<br>SEP</div>
-        <div class="eventtext">
-            <b>શુક્રવાર • ડાન્સ • ડ્રામા • ગરબા</b>
-        </div>
+        <div class="eventdate">18<br><small>FRI</small><br>SEP</div>
+        <div class="eventtext"><b>ડાન્સ • ડ્રામા • ગરબા</b></div>
     </div>
 
     <div class="event">
-        <div class="eventdate">19<br>SEP</div>
-        <div class="eventtext">
-            <b>શનિવાર • પુખ્તો માટે રમતોત્સવ</b>
-        </div>
+        <div class="eventdate">19<br><small>SAT</small><br>SEP</div>
+        <div class="eventtext"><b>પુખ્તો માટે રમતોત્સવ</b></div>
     </div>
 
     <div class="event">
-        <div class="eventdate">20<br>SEP</div>
-        <div class="eventtext">
-            <b>રવિવાર • વિસર્જન</b>
-        </div>
+        <div class="eventdate">20<br><small>SUN</small><br>SEP</div>
+        <div class="eventtext"><b>વિસર્જન</b></div>
     </div>
 
 </div>
+
   <div class="photo-strip">
     <img src="ganpati-2025-1.jpg" alt="ગણપતિ બાપ્પા">
     <img src="ganpati-2025-2.jpg" alt="ગણપતિ બાપ્પા">
