@@ -89,6 +89,32 @@ body{margin:0;background:#e9dfd0;color:#3d2b1e;font-family:Georgia,"Noto Serif G
     font-size:14px;
 }
 
+.nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    gap:8px;
+    padding:14px 8px;
+}
+
+.nav a{
+    color:#80684e;
+    text-decoration:none;
+    font-size:14px;
+    white-space:nowrap;
+}
+
+@media(max-width:600px){
+    .nav{
+        gap:4px;
+        padding:12px 4px;
+    }
+
+    .nav a{
+        font-size:12px;
+    }
+}    
+
 </style>
 </head>
 <body>
